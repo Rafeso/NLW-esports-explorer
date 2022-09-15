@@ -39,6 +39,42 @@ table {
 	border-spacing: 0;
 }
 
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #322357;
+  border: 0px solid #000000;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #15141c;
+  border: 0px solid #c20000;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #b5acc9;
+}
+::-webkit-scrollbar-track:active {
+  background: #342359;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
 body {
 	line-height: 1;
 	background-image: url(/assets/Fundo.jpg);
